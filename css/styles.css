@@ -86,7 +86,6 @@
 
 .page-header .navigation .current:active,
 .page-header .navigation .current:focus {
-    text-decoration: underline;
     color: #404BBF;
 }
 
