@@ -310,6 +310,10 @@
     margin-bottom: 8px;
 }
 
+.page-main .section-three .icon-list {
+    margin-top: 8px;
+}
+
 .page-main .section-three .icon-list-item {
     width: 40px;
     height: 40px;
@@ -354,7 +358,9 @@
 }
 
 .page-main .section-four .menu .item:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .page-main .section-four .title {
@@ -490,7 +496,7 @@
     max-width: 264px;
 }
 
-.page-footer .icon-list {
+.page-footer .icon-list-footer {
     gap: 16px;
     justify-content: flex-start;
 }
