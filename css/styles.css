@@ -177,6 +177,7 @@
 
 .page-main .container-section-two {
     display: flex;
+    flex-direction: column;
 }
 
 .page-main .section-two .menu {
