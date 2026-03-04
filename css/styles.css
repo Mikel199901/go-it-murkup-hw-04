@@ -48,10 +48,6 @@
     padding-bottom: 24px;
 }
 
-.page-header .navigation .link .current {
-    color: #2E2F42;
-}
-
 .page-header .navigation .nav {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
@@ -82,11 +78,6 @@
 .page-header .navigation .nav:hover,
 .page-header .navigation .nav:focus {
     color: #404BBF
-}
-
-.page-header .navigation .current .nav-one:active,
-.page-header .navigation .current .nav-one:focus {
-    color: #404BBF;
 }
 
 .page-header .contact {
