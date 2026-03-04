@@ -84,8 +84,8 @@
     color: #404BBF
 }
 
-.page-header .navigation .current:active,
-.page-header .navigation .current:focus {
+.page-header .navigation .current .nav-one:active,
+.page-header .navigation .current .nav-one:focus {
     color: #404BBF;
 }
 
@@ -306,7 +306,6 @@
     padding-left: 0;
     padding-right: 0;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .page-main .section-three .icon-list {
