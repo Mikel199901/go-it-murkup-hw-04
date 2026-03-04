@@ -87,8 +87,8 @@ html {
     color: #404BBF
 }
 
-.page-header .navigation #studio:active,
-.page-header .navigation #studio:focus {
+.page-header .navigation .current:active,
+.page-header .navigation .current:focus {
     text-decoration: underline;
     color: #404BBF;
 }
@@ -284,8 +284,7 @@ html {
 }
 
 .page-main .section-three .content {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 32px 16px;
 }
 
 .page-main .section-three .section-title {
@@ -297,6 +296,8 @@ html {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .page-main .section-three .text {
@@ -306,16 +307,9 @@ html {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
-}
-
-.section-three .icon-list {
-    justify-content: center;
-    margin-top: 6px;
-    margin-left: 16px;
-    gap: 24px;
 }
 
 .section-three .icon-list-item {
@@ -432,7 +426,7 @@ html {
 }
 
 
-.page-main .section-four .item:hover .text {
+.page-main .section-four .item:hover .marketing-overlay .text {
     transform: translateY(0);
 }
 
@@ -500,10 +494,9 @@ html {
     max-width: 264px;
 }
 
-.icon-list {
-    position: absolute;
-    display: flex;
+.page-footer .icon-list {
     gap: 16px;
+    justify-content: flex-start;
 }
 
 .page-footer .icon-list-item {
@@ -537,7 +530,7 @@ html {
 
 /* ============== General ============== */
 
-#visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -589,4 +582,10 @@ img {
 
 .icon {
     position: absolute;
+}
+
+.icon-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
