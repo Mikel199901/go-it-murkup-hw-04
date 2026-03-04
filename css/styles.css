@@ -569,10 +569,6 @@ img {
     display: block;
 }
 
-.icon {
-    position: absolute;
-}
-
 .icon-list {
     display: flex;
     gap: 24px;
